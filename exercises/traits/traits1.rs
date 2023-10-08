@@ -14,7 +14,7 @@ trait AppendBar {
 }
 
 impl AppendBar for String {
-    // TODO: Implement `AppendBar` for type `String`.
+    // Implemented `AppendBar` for type `String`.
     fn append_bar(self) -> Self {
         return format!("{self}Bar");
     }
